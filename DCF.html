@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="es" class="h-full">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invitación 18 Años - Ariday Vargas</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&family=Italiana&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <script src="/_sdk/element_sdk.js"></script>
+  <style>
+    body {
+      box-sizing: border-box;
+    }
+    
+    .font-script {
+      font-family: 'Italiana', serif;
+    }
+    
+    .font-elegant {
+      font-family: 'Cormorant', serif;
+    }
+    
+    .font-body {
+      font-family: 'Montserrat', sans-serif;
+    }
+    
+    @keyframes float-gentle {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-8px) rotate(2deg); }
+    }
+    
+    @keyframes shimmer-disco {
+      0%, 100% { 
+        background-position: 0% 50%;
+        transform: rotate(0deg);
+      }
+      50% { 
+        background-position: 100% 50%;
+        transform: rotate(180deg);
+      }
+    }
+    
+    @keyframes pulse-soft {
+      0%, 100% { opacity: 0.9; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.03); }
+    }
+    
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    
+    .float-animation {
+      animation: float-gentle 6s ease-in-out infinite;
+    }
+    
+    .disco-ball {
+      background: linear-gradient(135deg, 
+        #ffc0cb 0%, 
+        #ffb3d9 15%, 
+        #e6b3ff 30%, 
+        #ffc0cb 45%, 
+        #ffd700 60%, 
+        #ffb3d9 75%, 
+        #ffc0cb 100%
+      );
+      background-size: 200% 200%;
+      animation: shimmer-disco 3s linear infinite;
+    }
+    
+    .pulse-animation {
+      animation: pulse-soft 3s ease-in-out infinite;
+    }
+    
+    .fade-in {
+      animation: fadeIn 0.8s ease-out forwards;
+    }
+    
+    .text-shadow-soft {
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .watercolor-texture {
+      background-image: 
+        radial-gradient(circle at 20% 30%, rgba(255, 182, 193, 0.08) 0%, transparent 50%),
+        radial-gradient(circle at 80% 70%, rgba(255, 218, 185, 0.08) 0%, transparent 50%),
+        radial-gradient(circle at 40% 80%, rgba(255, 192, 203, 0.06) 0%, transparent 50%);
+    }
+    
+    .age-number-bg {
+      font-size: 12rem;
+      font-weight: 300;
+      opacity: 0.12;
+      color: #ffc0cb;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+      line-height: 1;
+      font-family: 'Cormorant', serif;
+    }
+    
+    .content-layer {
+      position: relative;
+      z-index: 2;
+    }
+
+    .color-dot {
+        width: 26px;
+        height: 26px;
+        border-radius: 50%;
+        border: 1px solid rgba(0,0,0,0.05);
+        display: inline-block;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+  </style>
+  <style>@view-transition { navigation: auto; }</style>
+  <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
+ </head>
+ <body class="h-full font-body">
+  <div class="main-wrapper min-h-full w-full flex items-center justify-center p-0 overflow-auto" style="background: linear-gradient(135deg, #faf7f2 0%, #f5efe6 50%, #faf7f2 100%);">
+   <div class="w-full max-w-md relative watercolor-texture" style="min-height: 100%;"><div id="age-bg-number" class="age-number-bg">
+     18
+    </div><div class="content-layer p-8 py-16"><div class="relative mb-8"><div class="absolute -top-4 -left-4 w-32 h-32">
+       <svg viewbox="0 0 120 120" class="w-full h-full float-animation"><circle cx="50" cy="50" r="28" fill="#ffb3c1" opacity="0.85" /> <circle cx="35" cy="40" r="20" fill="#ff9aad" opacity="0.8" /> <circle cx="65" cy="40" r="22" fill="#ffc4d0" opacity="0.75" /> <circle cx="40" cy="65" r="18" fill="#ffccd5" opacity="0.8" /> <circle cx="60" cy="65" r="19" fill="#ff91a4" opacity="0.85" /> <circle cx="50" cy="50" r="8" fill="#ffe5b4" opacity="0.9" />
+       </svg>
+      </div><div class="absolute -top-6 -right-6 w-36 h-36">
+       <svg viewbox="0 0 130 130" class="w-full h-full float-animation" style="animation-delay: -2s;"><circle cx="65" cy="60" r="26" fill="#ff8977" opacity="0.8" /> <circle cx="48" cy="52" r="20" fill="#ffb3a7" opacity="0.85" /> <circle cx="82" cy="52" r="21" fill="#ffa094" opacity="0.75" /> <circle cx="52" cy="75" r="18" fill="#ffccc5" opacity="0.8" /> <circle cx="78" cy="75" r="19" fill="#ff9e8f" opacity="0.8" /> <circle cx="65" cy="60" r="7" fill="#fff5e6" opacity="0.9" /> <circle cx="95" cy="30" r="16" fill="#ffdab9" opacity="0.75" /> <circle cx="85" cy="25" r="12" fill="#ffc8a0" opacity="0.7" /> <circle cx="105" cy="25" r="13" fill="#ffe5cc" opacity="0.7" />
+       </svg>
+      </div><div class="absolute top-20 left-8 w-16 h-16 float-animation" style="animation-delay: -1.5s;">
+       <svg viewbox="0 0 60 60" class="w-full h-full"><circle cx="30" cy="30" r="12" fill="#ffc0cb" opacity="0.7" /> <circle cx="22" cy="26" r="8" fill="#ffb3d9" opacity="0.6" /> <circle cx="38" cy="26" r="8" fill="#ffd0e5" opacity="0.6" /> <circle cx="30" cy="30" r="4" fill="#fff9e6" opacity="0.8" />
+       </svg>
+      </div>
+      <div class="absolute top-16 right-12 w-14 h-14 float-animation" style="animation-delay: -3s;">
+       <svg viewbox="0 0 55 55" class="w-full h-full"><circle cx="27" cy="27" r="10" fill="#ff8977" opacity="0.65" /> <circle cx="20" cy="24" r="7" fill="#ffa094" opacity="0.6" /> <circle cx="34" cy="24" r="7" fill="#ffccc5" opacity="0.6" /> <circle cx="27" cy="27" r="3" fill="#fff5e6" opacity="0.8" />
+       </svg>
+      </div><div class="flex justify-center mb-6 pulse-animation">
+       <div class="relative">
+        <div class="w-20 h-20 rounded-full disco-ball shadow-2xl border-4 border-white/40"></div>
+        <div class="absolute -top-8 left-1/2 transform -translate-x-1/2 w-1 h-8 bg-gradient-to-b from-gray-300 to-transparent"></div><div class="absolute -top-2 -left-2 text-yellow-300 text-xl">
+          ✨
+         </div>
+         <div class="absolute -top-2 -right-2 text-pink-300 text-xl">
+          ✨
+         </div>
+         <div class="absolute -bottom-1 left-1/2 transform -translate-x-1/2 text-purple-200 text-lg">
+          ✨
+         </div>
+       </div>
+      </div><div class="flex justify-center mb-4">
+       <svg width="50" height="50" viewbox="0 0 50 50" class="pulse-animation" style="animation-delay: -1s;"><circle cx="25" cy="25" r="10" fill="#ffd700" opacity="0.85" /> <line x1="25" y1="8" x2="25" y2="13" stroke="#ffd700" stroke-width="2" stroke-linecap="round" /> <line x1="25" y1="37" x2="25" y2="42" stroke="#ffd700" stroke-width="2" stroke-linecap="round" /> <line x1="8" y1="25" x2="13" y2="25" stroke="#ffd700" stroke-width="2" stroke-linecap="round" /> <line x1="37" y1="25" x2="42" y2="25" stroke="#ffd700" stroke-width="2" stroke-linecap="round" /> <line x1="13" y1="13" x2="17" y2="17" stroke="#ffd700" stroke-width="2" stroke-linecap="round" /> <line x1="33" y1="33" x2="37" y2="37" stroke="#ffd700" stroke-width="2" stroke-linecap="round" /> <line x1="33" y1="13" x2="37" y2="17" stroke="#ffd700" stroke-width="2" stroke-linecap="round" /> <line x1="13" y1="33" x2="17" y2="37" stroke="#ffd700" stroke-width="2" stroke-linecap="round" />
+       </svg>
+      </div>
+     </div><div class="absolute top-1/3 left-4 w-12 h-12 float-animation" style="animation-delay: -2.5s;">
+      <svg viewbox="0 0 50 50" class="w-full h-full"><circle cx="25" cy="25" r="9" fill="#ffdab9" opacity="0.65" /> <circle cx="19" cy="22" r="6" fill="#ffe5cc" opacity="0.6" /> <circle cx="31" cy="22" r="6" fill="#ffc8a0" opacity="0.6" />
+      </svg>
+     </div>
+     <div class="absolute top-1/2 right-6 w-14 h-14 float-animation" style="animation-delay: -4s;">
+      <svg viewbox="0 0 55 55" class="w-full h-full"><circle cx="27" cy="27" r="11" fill="#ffb3c1" opacity="0.6" /> <circle cx="20" cy="23" r="7" fill="#ffc4d0" opacity="0.55" /> <circle cx="34" cy="23" r="7" fill="#ff9aad" opacity="0.55" /> <circle cx="27" cy="27" r="3" fill="#fff9e6" opacity="0.7" />
+      </svg>
+     </div><div class="text-center mb-12">
+      <p id="invitation-text" class="font-elegant text-lg mb-3" style="color: #d88a94; letter-spacing: 0.05em;">Estás invitado/a a celebrar conmigo</p>
+      <h1 id="name-text" class="font-script text-6xl mb-2 text-shadow-soft" style="color: #e75480;">Mis 18 Años</h1>
+      <div class="text-5xl mb-2">
+       🌸
+      </div>
+      <h2 id="celebrant-name" class="font-script text-5xl mb-6" style="color: #ff8fa3;">Ariday Vargas</h2>
+     </div><div class="space-y-4 mb-10">
+      <div class="text-center">
+       <div class="inline-flex items-center gap-3 bg-white/60 px-6 py-3 rounded-full shadow-sm"><span class="text-2xl">📅</span>
+        <div class="text-left">
+         <p class="font-body text-xs uppercase tracking-wider" style="color: #d88a94;">Fecha</p>
+         <p id="date-text" class="font-elegant text-lg font-semibold" style="color: #c7536c;">Sábado 24 de Enero</p>
+        </div>
+       </div>
+      </div>
+      <div class="text-center">
+       <div class="inline-flex items-center gap-3 bg-white/60 px-6 py-3 rounded-full shadow-sm"><span class="text-2xl">🕐</span>
+        <div class="text-left">
+         <p class="font-body text-xs uppercase tracking-wider" style="color: #d88a94;">Hora</p>
+         <p id="time-text" class="font-elegant text-lg font-semibold" style="color: #c7536c;">10:00 AM</p>
+        </div>
+       </div>
+      </div>
+      <div class="text-center">
+       <div class="inline-flex items-center gap-3 bg-white/60 px-6 py-3 rounded-full shadow-sm"><span class="text-2xl">📍</span>
+        <div class="text-left">
+         <p class="font-body text-xs uppercase tracking-wider" style="color: #d88a94;">Lugar</p>
+         <p id="location-text" class="font-elegant text-lg font-semibold" style="color: #c7536c;">Jardín Claveles</p>
+        </div>
+       </div>
+      </div>
+      <div class="text-center pt-2"><button onclick="openMap()" class="inline-flex items-center gap-2 text-sm font-body px-4 py-2 rounded-full transition-all hover:shadow-md" style="background: rgba(255, 182, 193, 0.3); color: #c7536c; border: 1px solid rgba(255, 182, 193, 0.5);"> <span>🗺️</span> Ver ubicación </button>
+      </div>
+
+      <div class="mb-10 text-center fade-in" style="margin-top: 2rem; margin-bottom: 2.5rem; text-align: center;">
+          <div class="bg-white/40 rounded-2xl p-5 border border-white/60 shadow-sm" 
+               style="background-color: rgba(255, 255, 255, 0.4); border-radius: 1rem; padding: 1.25rem; border: 1px solid rgba(255, 255, 255, 0.6); box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);">
+              
+              <p class="font-elegant text-xl mb-4 font-semibold" style="color: #c7536c; font-size: 1.25rem; margin-bottom: 1rem; font-weight: 600;">
+                  Dress Code
+              </p>
+              
+              <div class="flex justify-center gap-2" style="display: flex; justify-content: center; gap: 0.5rem;">
+                  <div class="color-dot" style="background-color: #F4EFE6;"></div>
+                  <div class="color-dot" style="background-color: #DED1BA;"></div>
+                  <div class="color-dot" style="background-color: #C4B39A;"></div>
+                  <div class="color-dot" style="background-color: #8A7356;"></div>
+                  <div class="color-dot" style="background-color: #5B4C3A;"></div>
+                  <div class="color-dot" style="background-color: #1A1714;"></div>
+              </div>
+          </div>
+      </div>
+      </div><div id="guest-section" class="mb-6">
+      <p id="confirmation-text" class="text-center font-elegant text-lg mb-4" style="color: #d88a94;">Por favor, confirma tu asistencia</p><label for="guest-name" class="block text-center font-body text-sm mb-2" style="color: #c7536c;">Tu nombre:</label> <input type="text" id="guest-name" placeholder="Escribe tu nombre" class="w-full px-5 py-3 rounded-full text-center font-body shadow-sm focus:outline-none focus:ring-2 transition-all" style="background: rgba(255, 255, 255, 0.7); border: 2px solid rgba(255, 182, 193, 0.4); color: #c7536c;">
+     </div><div id="rsvp-buttons" class="space-y-3 mb-8"><button onclick="handleRSVP(true)" class="w-full py-4 px-6 rounded-full font-body font-semibold text-white shadow-lg transform hover:scale-105 transition-all duration-300 flex items-center justify-center gap-3" style="background: linear-gradient(135deg, #90ee90 0%, #98d98e 50%, #7ec87e 100%);"> <span class="text-2xl">🌸</span> ¡Sí asistiré! </button> <button onclick="handleRSVP(false)" class="w-full py-4 px-6 rounded-full font-body font-semibold text-white shadow-lg transform hover:scale-105 transition-all duration-300 flex items-center justify-center gap-3" style="background: linear-gradient(135deg, #d4a5a5 0%, #c99 50%, #b88 100%);"> <span class="text-2xl">💐</span> No podré asistir </button>
+     </div><div id="success-message" class="hidden text-center py-8 fade-in">
+      <div class="text-6xl mb-4" id="response-emoji">
+       🎊
+      </div>
+      <h3 id="response-title" class="font-script text-3xl mb-2" style="color: #e75480;">¡Gracias!</h3>
+      <p id="response-text" class="font-elegant text-lg" style="color: #d88a94;">Tu respuesta ha sido enviada</p>
+     </div><div class="relative mt-12"><div class="absolute -bottom-8 -left-6 w-28 h-28">
+       <svg viewbox="0 0 100 100" class="w-full h-full"><path d="M40 70 L35 85 L55 85 L50 70 Z" fill="#ffb3c1" opacity="0.8" /> <ellipse cx="45" cy="68" rx="15" ry="5" fill="#ff9aad" opacity="0.9" /> <circle cx="52" cy="60" r="3" fill="#90ee90" opacity="0.9" /> <rect x="44" y="85" width="2" height="8" fill="#d4a5a5" /> <ellipse cx="45" cy="94" rx="6" ry="2" fill="#d4a5a5" opacity="0.7" /> <ellipse cx="25" cy="85" rx="8" ry="6" fill="#90d090" opacity="0.7" /> <circle cx="25" cy="85" r="4" fill="#7ec87e" opacity="0.8" /> <circle cx="20" cy="83" r="1.5" fill="#6b9b6b" /> <circle cx="30" cy="83" r="1.5" fill="#6b9b6b" />
+       </svg>
+      </div><div class="absolute bottom-12 left-16 w-12 h-12 float-animation" style="animation-delay: -3.5s;">
+       <svg viewbox="0 0 50 50" class="w-full h-full"><circle cx="25" cy="25" r="9" fill="#ff8977" opacity="0.65" /> <circle cx="19" cy="22" r="6" fill="#ffa094" opacity="0.6" /> <circle cx="31" cy="22" r="6" fill="#ffccc5" opacity="0.6" /> <circle cx="25" cy="25" r="3" fill="#fff5e6" opacity="0.8" />
+       </svg>
+      </div><div class="absolute -bottom-10 -right-8 w-40 h-40">
+       <svg viewbox="0 0 140 140" class="w-full h-full float-animation" style="animation-delay: -3s;"><circle cx="80" cy="80" r="28" fill="#ffc0cb" opacity="0.85" /> <circle cx="63" cy="70" r="22" fill="#ffb3d9" opacity="0.8" /> <circle cx="97" cy="70" r="23" fill="#ffd0e5" opacity="0.75" /> <circle cx="67" cy="95" r="20" fill="#ffe0f0" opacity="0.8" /> <circle cx="93" cy="95" r="21" fill="#ffaac9" opacity="0.85" /> <circle cx="80" cy="80" r="9" fill="#fff9e6" opacity="0.9" /> <circle cx="115" cy="50" r="18" fill="#ffdab9" opacity="0.75" /> <circle cx="105" cy="44" r="13" fill="#ffe5cc" opacity="0.7" /> <circle cx="125" cy="44" r="14" fill="#ffc8a0" opacity="0.7" /> <ellipse cx="50" cy="110" rx="12" ry="20" fill="#b5dda4" opacity="0.6" transform="rotate(-30 50 110)" /> <ellipse cx="110" cy="105" rx="10" ry="18" fill="#c8e6c9" opacity="0.5" transform="rotate(25 110 105)" />
+       </svg>
+      </div><div class="absolute bottom-8 right-20 w-14 h-14 float-animation" style="animation-delay: -1s;">
+       <svg viewbox="0 0 55 55" class="w-full h-full"><circle cx="27" cy="27" r="10" fill="#ffdab9" opacity="0.7" /> <circle cx="21" cy="24" r="7" fill="#ffc8a0" opacity="0.65" /> <circle cx="33" cy="24" r="7" fill="#ffe5cc" opacity="0.65" /> <circle cx="27" cy="27" r="3" fill="#fff9e6" opacity="0.8" />
+       </svg>
+      </div><div class="absolute bottom-0 left-1/2 transform -translate-x-1/2">
+       <svg width="60" height="30" viewbox="0 0 60 30"><path d="M10 25 Q15 15 20 25" stroke="#ffc4d0" stroke-width="1.5" fill="none" opacity="0.6" /> <path d="M25 25 Q30 12 35 25" stroke="#ffb3c1" stroke-width="1.5" fill="none" opacity="0.6" /> <path d="M40 25 Q45 15 50 25" stroke="#ffdab9" stroke-width="1.5" fill="none" opacity="0.6" />
+       </svg>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <script>
+    const defaultConfig = {
+      birthday_name: 'Ariday Vargas',
+      age_number: '18',
+      event_date: 'Sábado 24 de Enero',
+      event_time: '10:00 AM',
+      event_location: 'Jardín Claveles',
+      invitation_text: 'Estás invitado/a a celebrar conmigo',
+      confirmation_text: 'Por favor, confirma tu asistencia',
+      primary_color: '#ffc0cb',
+      secondary_color: '#ff8fa3',
+      text_color: '#c7536c',
+      accent_color: '#ffdab9',
+      surface_color: '#d88a94',
+      font_family: 'Italiana',
+      font_size: 16
+    };
+
+    let config = { ...defaultConfig };
+
+    function openMap() {
+      const mapsURL = 'https://www.google.com/maps/search/?api=1&query=Av.+De+los+Claveles+No.+298%2C+Col.+Alamitos%2C+Mexicali%2C+B.C.';
+      window.open(mapsURL, '_blank', 'noopener,noreferrer');
+    }
+
+    function handleRSVP(attending) {
+      const guestName = document.getElementById('guest-name').value.trim() || 'Invitado';
+      const whatsappNumber = '526862094429';
+      
+      let message;
+      if (attending) {
+        message = `${guestName}, SÍ podrá asistir`;
+      } else {
+        message = `${guestName}, NO podrá asistir`;
+      }
+      
+      const encodedMessage = encodeURIComponent(message);
+      const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+      
+      document.getElementById('rsvp-buttons').classList.add('hidden');
+      document.getElementById('guest-section').classList.add('hidden');
+      
+      const successDiv = document.getElementById('success-message');
+      successDiv.classList.remove('hidden');
+      
+      if (attending) {
+        document.getElementById('response-emoji').textContent = '🌸';
+        document.getElementById('response-title').textContent = '¡Nos vemos ahí!';
+        document.getElementById('response-text').textContent = 'Gracias por confirmar, ' + guestName;
+      } else {
+        document.getElementById('response-emoji').textContent = '💐';
+        document.getElementById('response-title').textContent = 'Te extrañaremos';
+        document.getElementById('response-text').textContent = 'Gracias por avisar, ' + guestName;
+      }
+      
+      window.open(whatsappURL, '_blank', 'noopener,noreferrer');
+    }
+
+    async function onConfigChange(newConfig) {
+      config = { ...defaultConfig, ...newConfig };
+      
+      const ageBg = document.getElementById('age-bg-number');
+      if (ageBg) {
+        ageBg.textContent = config.age_number || defaultConfig.age_number;
+      }
+      
+      const nameEl = document.getElementById('celebrant-name');
+      if (nameEl) {
+        nameEl.textContent = config.birthday_name || defaultConfig.birthday_name;
+      }
+      
+      const inviteEl = document.getElementById('invitation-text');
+      if (inviteEl) {
+        inviteEl.textContent = config.invitation_text || defaultConfig.invitation_text;
+      }
+      
+      const confirmEl = document.getElementById('confirmation-text');
+      if (confirmEl) {
+        confirmEl.textContent = config.confirmation_text || defaultConfig.confirmation_text;
+      }
+      
+      const dateEl = document.getElementById('date-text');
+      if (dateEl) {
+        dateEl.textContent = config.event_date || defaultConfig.event_date;
+      }
+      
+      const timeEl = document.getElementById('time-text');
+      if (timeEl) {
+        timeEl.textContent = config.event_time || defaultConfig.event_time;
+      }
+      
+      const locationEl = document.getElementById('location-text');
+      if (locationEl) {
+        locationEl.textContent = config.event_location || defaultConfig.event_location;
+      }
+      
+      const customFont = config.font_family || defaultConfig.font_family;
+      const titleEl = document.getElementById('name-text');
+      if (titleEl) {
+        titleEl.style.fontFamily = `${customFont}, 'Italiana', serif`;
+      }
+      if (nameEl) {
+        nameEl.style.fontFamily = `${customFont}, 'Italiana', serif`;
+      }
+      
+      const baseSize = config.font_size || defaultConfig.font_size;
+      if (titleEl) titleEl.style.fontSize = `${baseSize * 3.75}px`;
+      if (nameEl) nameEl.style.fontSize = `${baseSize * 3.125}px`;
+      if (inviteEl) inviteEl.style.fontSize = `${baseSize * 1.125}px`;
+      if (dateEl) dateEl.style.fontSize = `${baseSize * 1.125}px`;
+      if (timeEl) timeEl.style.fontSize = `${baseSize * 1.125}px`;
+      if (locationEl) locationEl.style.fontSize = `${baseSize * 1.125}px`;
+      if (confirmEl) confirmEl.style.fontSize = `${baseSize * 1.125}px`;
+    }
+
+    function mapToCapabilities(cfg) {
+      return {
+        recolorables: [
+          {
+            get: () => cfg.primary_color || defaultConfig.primary_color,
+            set: (value) => {
+              cfg.primary_color = value;
+              if (window.elementSdk) window.elementSdk.setConfig({ primary_color: value });
+            }
+          },
+          {
+            get: () => cfg.secondary_color || defaultConfig.secondary_color,
+            set: (value) => {
+              cfg.secondary_color = value;
+              if (window.elementSdk) window.elementSdk.setConfig({ secondary_color: value });
+            }
+          },
+          {
+            get: () => cfg.text_color || defaultConfig.text_color,
+            set: (value) => {
+              cfg.text_color = value;
+              if (window.elementSdk) window.elementSdk.setConfig({ text_color: value });
+            }
+          },
+          {
+            get: () => cfg.accent_color || defaultConfig.accent_color,
+            set: (value) => {
+              cfg.accent_color = value;
+              if (window.elementSdk) window.elementSdk.setConfig({ accent_color: value });
+            }
+          },
+          {
+            get: () => cfg.surface_color || defaultConfig.surface_color,
+            set: (value) => {
+              cfg.surface_color = value;
+              if (window.elementSdk) window.elementSdk.setConfig({ surface_color: value });
+            }
+          }
+        ],
+        borderables: [],
+        fontEditable: {
+          get: () => cfg.font_family || defaultConfig.font_family,
+          set: (value) => {
+            cfg.font_family = value;
+            if (window.elementSdk) window.elementSdk.setConfig({ font_family: value });
+          }
+        },
+        fontSizeable: {
+          get: () => cfg.font_size || defaultConfig.font_size,
+          set: (value) => {
+            cfg.font_size = value;
+            if (window.elementSdk) window.elementSdk.setConfig({ font_size: value });
+          }
+        }
+      };
+    }
+
+    function mapToEditPanelValues(cfg) {
+      return new Map([
+        ['birthday_name', cfg.birthday_name || defaultConfig.birthday_name],
+        ['age_number', cfg.age_number || defaultConfig.age_number],
+        ['event_date', cfg.event_date || defaultConfig.event_date],
+        ['event_time', cfg.event_time || defaultConfig.event_time],
+        ['event_location', cfg.event_location || defaultConfig.event_location],
+        ['invitation_text', cfg.invitation_text || defaultConfig.invitation_text],
+        ['confirmation_text', cfg.confirmation_text || defaultConfig.confirmation_text]
+      ]);
+    }
+
+    if (window.elementSdk) {
+      window.elementSdk.init({
+        defaultConfig,
+        onConfigChange,
+        mapToCapabilities,
+        mapToEditPanelValues
+      });
+    }
+  </script>
+ </body>
+</html>
